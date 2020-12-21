@@ -4,8 +4,8 @@ import {View, Text,} from 'react-native';
 export default class FacebookScreen extends React.Component{
     render(){
         return(
-            <View style={{flex: 1}}>
-                <Text>FaceBook</Text>
+            <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+                <Text style={{ color: "blue", fontSize: 25}}>FaceBook</Text>
             </View>
         )
     }
